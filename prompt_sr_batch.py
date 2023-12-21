@@ -8,7 +8,7 @@ class PromptSRBatchScript(scripts.Script):
 
     def ui(self, is_img2img):
         if not is_img2img:
-            return [gr.Textbox(label="Prompt S/R", 
+            return [gr.Textbox(label="Comma separated list. Not compatible with dynamics prompts extension, simply untick enable.", 
                                placeholder="First item to replace, followed by replacements. Example: car, house, tree, frog", 
                                lines=2)]
         return []
