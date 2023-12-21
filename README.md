@@ -4,6 +4,8 @@ Scripts go in the automatic1111 stable-diffusion-webui / scripts folder.
 
 ## Prompt S/R Batch
 
+Note: I'm afraid this is not compatible with the "dynamic prompts" extension, you must disable that with its checkbox.
+
 Generating e.g. 4 images in 1 batch is slightly faster than 4x1 image, but normally they'd all get the same prompt.
 
 This script allows you to change the prompt for each image in one batch.
