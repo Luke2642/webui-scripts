@@ -9,7 +9,7 @@ class PromptSRBatchScript(scripts.Script):
     def ui(self, is_img2img):
         if not is_img2img:
             return [gr.Textbox(label="Prompt S/R", 
-                               placeholder="First item to replace, followed by replacements. Example: 'car, house, tree, frog'", 
+                               placeholder="First item to replace, followed by replacements. Example: car, house, tree, frog", 
                                lines=2)]
         return []
 
