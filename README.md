@@ -4,7 +4,9 @@ Scripts go in the automatic1111 stable-diffusion-webui / scripts folder.
 
 ## Prompt S/R Batch
 
-Generating e.g. 4 images in 1 batch is slightly faster than 4x1 image, this script allows you to change the prompt across 1 batch.
+Generating e.g. 4 images in 1 batch is slightly faster than 4x1 image, but normally they'd all get the same prompt.
+
+This script allows you to change the prompt for each image in one batch.
 
 It works like the prompt s/r in xyz grid, search and replace, but, also overrides the batch setting.
 
