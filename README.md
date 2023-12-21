@@ -1,5 +1,7 @@
 # Scripts for Automatic1111
 
+Scripts go in the automatic1111 stable-diffusion-webui / scripts folder.
+
 ## Prompt S/R Batch
 
 Generating e.g. 4 images in 1 batch is slightly faster than 4x1 image, this script allows you to change the prompt across 1 batch.
